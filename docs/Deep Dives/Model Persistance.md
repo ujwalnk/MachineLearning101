@@ -1,4 +1,3 @@
-
 # Model Persistance
 ## Machine Learning
 

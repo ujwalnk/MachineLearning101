@@ -47,6 +47,24 @@ repo_url: https://github.com/ujwalnk/MachineLearning101
 site_name: MachineLearning101
 site_url: https://ujwalnk.github.io/MachineLearning101
 
+nav:
+  - Intro: index.md
+  - Machine Learning:
+    - Machine Learning/Data Preprocessing.md
+    - Machine Learning/Model to be used.md
+    - Machine Learning/Random Forest Classifier.md
+    - Machine Learning/SGD Classifier.md
+  - Neural Networks:
+    - Neural Networks/Data Preprocessing.md
+    - Neural Networks/Image Recognition.md
+  - Deep Dives:
+    - Deep Dives/FPGA for Machine Learning.md
+    - Deep Dives/Model Persistance.md
+  - Examples:
+    - (ML) SGD Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Machine_Learning_01_Weather_Classfication.ipynb
+    - (ML) Random Forest Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Machine_Learning_02_Weather_Classfication.ipynb
+    - (NN) Image Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Neural_Network_01_Image_Classification.ipynb
+
 markdown_extensions:
   - admonition
   - pymdownx.details
