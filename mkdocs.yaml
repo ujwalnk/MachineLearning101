@@ -41,7 +41,6 @@ theme:
     - content.code.annotate
   icon:
     repo: fontawesome/brands/github
-  custom_dir: web/custom/
 
 repo_name: ujwalnk/MachineLearning101
 repo_url: https://github.com/ujwalnk/MachineLearning101
