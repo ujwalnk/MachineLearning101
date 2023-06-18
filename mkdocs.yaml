@@ -1,0 +1,72 @@
+theme:
+  name: material
+  highlightjs: true
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  logo: favicon.ico
+  favicon: favicon.ico
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+  # palette:
+    # primary: blue grey
+  font:
+    text: Open Sans
+    code: Fira Code
+  features:
+    - navigation.footer
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: web/custom/
+
+repo_name: ujwalnk/MachineLearning101
+repo_url: https://github.com/ujwalnk/MachineLearning101
+site_name: MachineLearning101
+site_url: https://ujwalnk.github.io/MachineLearning101
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+        - class: mermaid
+        - format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
