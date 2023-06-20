@@ -61,10 +61,12 @@ nav:
     - Deep Dives/FPGA for Machine Learning.md
     - Deep Dives/Model Persistance.md
   - Examples:
-    - (ML) SGD Classifier: examples/Machine_Learning_01_Weather_Classfication.ipynb
-    - (ML) Random Forest Classifier: examples/Machine_Learning_02_Weather_Classfication.ipynb
-    - (ML) Random Forest & SGD Regressor: examples/Machine_Learning_01_Weather_Classfication.ipynb
-    - (NN) Image Classifier: examples/Neural_Network_01_Image_Classification.ipynb
+    - examples/Machine_Learning_01_Weather_Classfication.ipynb
+    - examples/Machine_Learning_02_Weather_Classfication.ipynb
+    - examples/Machine_Learning_03_Fuel_Efficiency_Regression.ipynb
+    - examples/Neural_Network_01_Fuel_Efficiency_Regression.ipynb
+    - examples/Neural_Network_02_Image_Classification.ipynb
+
 
 markdown_extensions:
   - admonition
