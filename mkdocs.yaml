@@ -62,9 +62,9 @@ nav:
     - Deep Dives/Model Persistance.md
   - Examples:
     - (ML) SGD Classifier: examples/Machine_Learning_01_Weather_Classfication.ipynb
-    - (ML) Random Forest Classifier: ../../examples/Machine_Learning_02_Weather_Classfication.ipynb
-    - (ML) Random Forest & SGD Regressor: Machine_Learning_01_Weather_Classfication.ipynb
-    - (NN) Image Classifier: ../examples/Neural_Network_01_Image_Classification.ipynb
+    - (ML) Random Forest Classifier: examples/Machine_Learning_02_Weather_Classfication.ipynb
+    - (ML) Random Forest & SGD Regressor: examples/Machine_Learning_01_Weather_Classfication.ipynb
+    - (NN) Image Classifier: examples/Neural_Network_01_Image_Classification.ipynb
 
 markdown_extensions:
   - admonition
