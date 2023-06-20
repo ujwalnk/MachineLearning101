@@ -61,9 +61,10 @@ nav:
     - Deep Dives/FPGA for Machine Learning.md
     - Deep Dives/Model Persistance.md
   - Examples:
-    - (ML) SGD Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Machine_Learning_01_Weather_Classfication.ipynb
-    - (ML) Random Forest Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Machine_Learning_02_Weather_Classfication.ipynb
-    - (NN) Image Classifier: https://github.com/ujwalnk/MachineLearning101/blob/main/examples/Neural_Network_01_Image_Classification.ipynb
+    - (ML) SGD Classifier: examples/Machine_Learning_01_Weather_Classfication.ipynb
+    - (ML) Random Forest Classifier: ../../examples/Machine_Learning_02_Weather_Classfication.ipynb
+    - (ML) Random Forest & SGD Regressor: Machine_Learning_01_Weather_Classfication.ipynb
+    - (NN) Image Classifier: ../examples/Neural_Network_01_Image_Classification.ipynb
 
 markdown_extensions:
   - admonition
@@ -87,3 +88,6 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - mkdocs-jupyter
