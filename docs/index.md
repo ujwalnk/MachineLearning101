@@ -10,4 +10,4 @@ A good way to start would be to follow the order of the directory view on the le
 
 > ~ Benjamin Franklin
 
-So interact with the code, and fiddle around with the code, until it becomes second nature.
+So interact with the code, and fiddle around, until it becomes second nature.
